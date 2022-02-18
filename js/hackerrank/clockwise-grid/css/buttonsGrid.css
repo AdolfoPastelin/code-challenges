@@ -1,0 +1,20 @@
+#btns {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: .5rem;
+
+	width: 50%;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9 {
+	padding: .5rem;
+	font-size: 24px;
+}
