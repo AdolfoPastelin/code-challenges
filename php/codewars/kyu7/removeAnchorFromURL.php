@@ -10,15 +10,5 @@
 
 function replaceAll(string $string): string
 {
-	$result = '';
-
-	for ($i = 0; $i < strlen($string); $i++) {
-		if ($string[$i] === '#') {
-			break;
-		}
-
-		$result .= $string[$i];
-	}
-
-	return $result;
+	return explode("#", $string)[0];
 }
